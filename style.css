@@ -1,0 +1,401 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    color: antiquewhite;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+::selection {
+    color: rgb(44, 21, 128);
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    color: #f3aaff;
+}
+
+.fundo {
+    background: url(images/fundo-jogo.gif) repeat;
+    background-position-y: center;
+    min-height: 90vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.fundo2 {
+    background-position-y: center;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(images/fundo-jogo.gif) repeat;;
+    background-position-y: bottom;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: 90vh;
+}
+
+h1 {
+    line-height: 1;
+    font-size: 3em;
+    text-align: center;
+    margin: 1em 0 0 0;
+    text-shadow: 5px 6px 0px #9907e7;
+    color: #f3aaff;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+    color: #84fff5;
+    margin: 0.25em 0 1em 0;
+    text-shadow: 5px 6px 0px #9907e7;
+}
+
+h3 {
+    text-align: center;
+}
+
+.content {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.popup {
+    box-shadow: 4px 0 white, -4px 0 white, 0 -4px white, 0 4px white, 8px 0 blue, -8px 0 blue, 0 -8px blue, 0 8px blue, 0 0 0 4px blue;
+    margin: 3em auto;
+    max-width: 60%;
+    padding: 3em;
+    background: #050088;
+    line-height: 2;
+    text-align: left;
+    font-size: 0.7em;
+    align-content: center;
+
+}
+
+.popup img {
+    margin: 1em auto;
+}
+
+.popup h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 2em;
+    text-shadow: 2px 3px 0px #00f;
+}
+
+.popup ul {
+    margin: 2em 0;
+}
+
+
+.presstart {
+    margin: 3em 0 1em 0;
+    font-size: 1.3em;
+}
+
+/* MENU DAS PRÓXIMAS PAGINAS */
+
+
+.presstart li:before {
+    font-size: 2.25em;
+    content: "\01F892";
+    color: transparent;
+    line-height: 1;
+    margin: 0 0.25em 0 0;
+    text-align: left;
+    position: relative;
+
+}
+
+.presstart li:hover::before {
+    font-size: 2.25em;
+    content: "\01F892";
+    color: antiquewhite;
+    line-height: 1;
+    margin: 0 0.25em 0 0;
+    text-align: left;
+    position: relative;
+
+}
+
+
+.presstart ul {
+list-style: none;
+padding: 0;
+}
+
+.botao, .botao-gameover {
+    border: 2px solid antiquewhite;
+    font-family: 'Press Start 2P';
+    padding: 1.25em;
+    font-size: 0.9em;
+    background: none;
+    color: antiquewhite;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+.botao:hover, .botao-gameover:hover {
+    border: 2px solid #cf8afa;
+    background: none;
+    color: #e0c5ff;
+}
+
+.botao-gameover {
+    margin-top: 3em;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.personagem {    
+    min-width: 40%;
+    text-align: left;
+    margin: 3em;
+}
+
+.personagem img {
+    image-rendering: pixelated;
+    max-width: 75%;
+}
+
+
+.logo {
+    margin: 2em auto;
+}
+
+.logo h1, .logo h2 {
+    font-size: 2em;
+}
+
+.personagem p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+
+.copyright {
+    font-size: 0.25em;
+    margin: 10em 2em;
+    color: #dbbdff;
+}
+
+
+/* PRIMEIRA PÁGINA - NAO MEXEEEE */
+
+.personagem a {
+    font-size: 1em;
+    text-align: center;
+}
+
+.personagem ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-around;
+    
+
+}
+
+.personagem li {
+    text-align: center;
+}
+
+
+
+.personagem li:after {
+    font-size: 3em;
+    content: "\1F891";
+    color: transparent;
+    display: block;
+    text-align: center;
+    line-height: 0;
+    position: relative;
+
+}
+
+
+
+.personagem li:hover::after {
+    font-size: 3em;
+    content: "\1F891";
+    color: #f3aaff;
+    line-height: 0;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+
+/* PRIMEIRA PÁGINA ACABA AQUI */
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    background: #9907e7;
+    position: absolute;
+}
+
+.gameover {margin: 3em;}
+
+.gameover-texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    margin: 0.25em;
+    }
+    @-webkit-keyframes tada {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes tada {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    } 
+
+    .cabecalho {
+        display: flex;
+        margin: 2em 0;
+    }
+
+    
+    .sarah-cab {
+        background: url(images/sarah-mini.png) no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: 0 2em 0 0;
+
+    }
+
+    .george-cab {
+        background: url(images/george-mini.png) no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: 0 2em 0 0;
+
+    }
+
+    .martha-cab {
+        background: url(images/martha-mini.png) no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: 0 2em 0 0;
+
+    }
