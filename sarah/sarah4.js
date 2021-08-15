@@ -14,7 +14,7 @@ var mensagem;
         }
         else if (mensagem == 2)
         {
-            location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/sarah/sarah4.html");
+            location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/sarah/sarah5.html");
             break;
         }
         else 
