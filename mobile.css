@@ -66,4 +66,9 @@ margin: 0;
 }
 
 
+.personagem img {
+    image-rendering: pixelated;
+    max-width: 100%;
+}
+
 }
