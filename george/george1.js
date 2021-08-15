@@ -26,7 +26,7 @@ var mensagem;
 <li> 2 - Pegar apenas o crachá e sair de fininho.</li>
 </ul>
 
-<a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/george/george2.html'><button class='botao-gameover'>RESPONDER</button></a></div>`;
+<a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/george/george2.html'><button class='botao'>RESPONDER</button></a></div>`;
 
         }
     else 
@@ -36,5 +36,5 @@ var mensagem;
         }
     }
 
-    
+
 
