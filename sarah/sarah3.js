@@ -1,15 +1,15 @@
 var mensagem;
 
 //primeira fase 
-        function sarah1() {
+        function sarah3() {
 
         while(mensagem != 1 || mensagem != 2) {
 
-            mensagem = prompt("Sarah deve aceitar? \n \n 1 - Sim, que mal há? \n 2 - Não, deve ser alguma pegadinha.");
+            mensagem = prompt("Qual ela deve utilizar? \n \n 1 - 666  \n 2 - 186");
 
         if (mensagem == 1) 
         {
-            location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/sarah/sarah2.html");
+            location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/sarah/sarah4.html");
             break;
         }
         else if (mensagem == 2)
