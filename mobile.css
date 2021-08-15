@@ -1,11 +1,11 @@
 @media (max-width:900px) {
 .content {
     height: auto;
-    min-height: 100vh;
+    min-height: 100vh !important;
 }
 
 .logo {
-    margin: 3em 3em 0;
+    margin: 2em 3em;
 }
 
 popup {
@@ -13,7 +13,7 @@ popup {
 }
 
 .popup h3, .cabecalho h3 {
-    line-height: 1.1;
+    line-height: 1.25;
     font-size: 1.4em;
 }
 
@@ -51,9 +51,7 @@ popup {
 }
 
 .sarah-cab, .george-cab, .martha-cab {
-    width: 64px;
-    height: 64px;
-    margin: 0 1em 0 0;
+display: none;
 }
 
 .copyright {
@@ -65,5 +63,6 @@ popup {
 .cabecalho {
     margin: 2.5em 0;
 }
+
 
 }
