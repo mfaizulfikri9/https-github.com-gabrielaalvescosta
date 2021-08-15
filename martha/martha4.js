@@ -14,10 +14,7 @@
     else if (mensagem == 2)
     {
 
-        document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>YOU <h2 class='tada'>WIN</h2></h2></div>
-        Martha utilizou com sucesso suas habilidades matemáticas e conseguiu abrir a porta com sucesso! O mais curioso: ela abriu um túnel que dava acesso direto para a nave. Martha conseguiu embarcar com sucesso, agora ela será feliz em Kepler-186f!
-
-        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+        location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/martha/martha5.html");
         break;
     }
     else 
