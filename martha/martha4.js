@@ -15,7 +15,7 @@ var mensagem;
         }
         else if (mensagem == 2)
         {
-          location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/martha/martha4.html");
+          location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/martha/martha5.html");
           break;
         }
         else 
