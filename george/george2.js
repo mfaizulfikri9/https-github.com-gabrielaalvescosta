@@ -15,7 +15,7 @@ var mensagem;
         else if (mensagem == 2)
         {
 
-            location.replace("./george3.html");
+            location.replace("https://gabrielaalvescosta.github.io/ProjetoModulo1/george/george3.html");
             break;
         }
         else 
