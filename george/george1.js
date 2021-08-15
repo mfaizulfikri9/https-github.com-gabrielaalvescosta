@@ -17,8 +17,8 @@ while (true) {
     else if (mensagem == 2)
         {
 
-            window.location.replace(".https://gabrielaalvescosta.github.io/ProjetoModulo1/george/george2.html");
-            break;
+            window.location.replace("../george2.html");
+
         }
 
     }
