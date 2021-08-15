@@ -7,7 +7,7 @@ var mensagem;
 
     if (mensagem == 1) 
         {
-            document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Os cientistas ficaram um bom tempo conversando e George aguardando ansiosamente o momento de entrar na sala. Assim que deu o horário do almoço, os cientistas organizaram a mesa e acharam a bendita chave. Levaram a chave embora. George perdeu a chance de entrar na nave.<a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+            document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Os cientistas ficaram um bom tempo conversando e George aguardando ansiosamente o momento de entrar na sala. Assim que deu o horário do almoço, os cientistas organizaram a mesa e acharam a bendita chave. Levaram a chave embora. George perdeu a chance de entrar na nave.<a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
 
         }
     else if (mensagem == 2)
@@ -46,7 +46,7 @@ var mensagem;
     {
  
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Os cientistas agradeceram a gentileza de George de avisar que o crachá estava embaixo da roupa espacial. Eles pegaram a chave e foram embora com ela, fechando o laboratório. George sabe que só é possível entrar na nave pelo laboratório. 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
 
     }
     else if (mensagem == 2)
@@ -96,7 +96,7 @@ var mensagem;
     {
 
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>George tentou pegar a roupa do astronauta e vestir, porém um amigo seu passou pelo corredor e o pegou no flagra. George foi demitido e preso. 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
     }
     else 
     {
@@ -116,7 +116,7 @@ var mensagem;
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>YOU <h2 class='tada'>WIN</h2></h2></div>
         George conseguiu subir as escadas e foi parar dentro da nave. Ele entrou de fininho, mas percebeu que não tinha ninguém lá dentro. Agora George vai para a missão espacial!
 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
 
     }
     else if (mensagem == 2)
@@ -124,7 +124,7 @@ var mensagem;
 
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Parecia uma boa ideia ir pela T02, mas ele infelizmente encontrou um dos tripulantes conversando no meio do caminho. Ele foi descoberto. 
 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
     }
     else 
     {

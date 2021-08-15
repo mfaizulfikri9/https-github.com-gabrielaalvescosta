@@ -7,7 +7,7 @@ var mensagem;
 
     if (mensagem == 1) 
         {
-            document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Martha chegou nos soldados e disse "está um belo dia hoje, não?". Ficou puxando papo com os soldados até que um percebeu que ela estava mesmo era tentando tirar atenção deles. Eles a expulsaram da região e chamaram a polícia.<a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+            document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Martha chegou nos soldados e disse "está um belo dia hoje, não?". Ficou puxando papo com os soldados até que um percebeu que ela estava mesmo era tentando tirar atenção deles. Eles a expulsaram da região e chamaram a polícia.<a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
 
         }
     else if (mensagem == 2)
@@ -45,7 +45,7 @@ var mensagem;
     {
  
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Martha tentou puxar assunto, porém Samuel não se lembrava de Martha. Ela estava muito diferente e ele era apenas um nerd na sala o qual ninguém dava bola. Ele não entendeu nada e foi embora. Os soldados entenderam que aquilo era apenas uma trapaça de Martha e a expulsaram da NASA.
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
 
     }
     else if (mensagem == 2)
@@ -98,7 +98,7 @@ var mensagem;
 
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Os soldados ao verem a "situação" de Martha chamam a ambulância e a levam para o hospital. Lá descobrem que ela estava mentindo. Martha foi presa!
 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
     }
     else 
     {
@@ -117,7 +117,7 @@ var mensagem;
     {
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Xii, a conta estava errada! Martha não só conseguiu não abrir a porta como ativou uma sirene altíssima que fez todos os cientistas correrem para a sala onde ela estava. Flagaram ela de pé, muito saudável, mexendo nas senhas da porta. Martha foi enviada para a delegacia.
 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
 
     }
     else if (mensagem == 2)
@@ -126,7 +126,7 @@ var mensagem;
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>YOU <h2 class='tada'>WIN</h2></h2></div>
         Martha utilizou com sucesso suas habilidades matemáticas e conseguiu abrir a porta com sucesso! O mais curioso: ela abriu um túnel que dava acesso direto para a nave. Martha conseguiu embarcar com sucesso, agora ela será feliz em Kepler-186f!
 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
 
     }
     else 

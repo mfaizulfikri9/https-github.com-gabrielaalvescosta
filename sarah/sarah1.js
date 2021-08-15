@@ -23,7 +23,7 @@ O que Sarah deve tentar desparafusar primeiro?
         }
     else if (mensagem == 2)
         {
-            document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Sarah tentou falar com o carcereiro e perguntar o que era aquilo na caixa. O carcereiro jogou a caixa fora, apagou as luzes do andar e foi embora. Sarah perdeu o embarque.<a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+            document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Sarah tentou falar com o carcereiro e perguntar o que era aquilo na caixa. O carcereiro jogou a caixa fora, apagou as luzes do andar e foi embora. Sarah perdeu o embarque.<a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
         }
     else 
         {
@@ -43,7 +43,7 @@ O que Sarah deve tentar desparafusar primeiro?
     {
  
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Sarah começou a desparafusar o boeiro, porém ela não tinha percebido que próximo havia um fio elétrico partido. Ela encostou a chave de fenda e tomou um choque. 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
 
     }
     else if (mensagem == 2)
@@ -90,7 +90,7 @@ O que Sarah deve tentar desparafusar primeiro?
     {
 
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Sarah escreveu 186, afinal 186 é o nome da missão, certo? Errado! A porta disparou uma sirene a qual chamou atenção de todos os cientistas e seguranças. Ela foi pega.
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
     }
     else 
     {
@@ -109,7 +109,7 @@ O que Sarah deve tentar desparafusar primeiro?
     {
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>YOU <h2 class='tada'>WIN</h2></h2></div>
         Morrendo de medo, Sarah consegue correr e embarcar na nave. Havia algumas pessoas lá dentro dormindo, então não foi difícil ela se esconder debaixo das poltronas. Uma hora iriam notar ela lá, mas aí seria tarde demais, eles já estarão rumo a Kepler-186f.
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div></div>`;
 
     }
     else if (mensagem == 2)
@@ -117,7 +117,7 @@ O que Sarah deve tentar desparafusar primeiro?
 
         document.getElementsByClassName('content')[0].innerHTML=`<div class='popup'><div class='gameover-texto'><div class='gameover'><h2 class='tada'>GAME <h2 class='tada'>OVER</h2></h2></div>Era mais lógico ir pelo caminho mais escuro, afinal ela não queria ser vista por ninguém, porém mal sabia ela que no caminho estavam 2 policiais de escolta. Ela foi pega.
 
-        <a href='index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
+        <a href='https://gabrielaalvescosta.github.io/ProjetoModulo1/index.html'><button class='botao-gameover'>RECOMEÇAR O JOGO</button></a></div></div>`;
     }
     else 
     {
