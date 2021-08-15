@@ -45,6 +45,10 @@ popup {
     margin: 0em 3em;
 }
 
+.personagem a {
+    font-size: 0.9em;
+}
+
 .topo {
     margin: 2em 3em 0 3em;
     text-align: center;
