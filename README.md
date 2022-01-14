@@ -1,5 +1,5 @@
 # FugaParaKepler-186F
-## A simple quiz game
+A simple quiz game
 
 <p align="center">
   <img src="./web.gif" alt="APOD"/>
