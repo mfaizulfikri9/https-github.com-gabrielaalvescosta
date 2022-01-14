@@ -17,4 +17,5 @@ A simple quiz game
 - Each level must have a HTML file
 
 
+
 Projeto final do módulo 1 da @resilia-br. O objetivo era criar um jogo de perguntas e respostas em JavaScript com, no mínimo, 3 personagens, sendo o uso do prompt obrigatório. 
