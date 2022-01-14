@@ -2,8 +2,8 @@
 A simple quiz game
 
 <p align="center">
-  <img src="./web.gif" alt="APOD"/>
-  <img src="./projeto-mobile.gif" height="362px" alt="APOD"/>
+  <img src="./web.gif" alt="Versão Web"/>
+  <img src="./projeto-mobile.gif" height="362px" alt="Versão Mobile"/>
 </p>
 
 **A very simple 16-bit game made with Vanilla JavaScript, CSS and HTML. This was a first "term paper" of @resilia-br bootcamp. In this project was used a prompt to catch the player's answer through a function.**
