@@ -8,7 +8,7 @@ A simple quiz game
 
 **A very simple 16-bit game made with Vanilla JavaScript, CSS and HTML. This was a first "term paper" of @resilia-br bootcamp. In this project was used a prompt to catch the player's answer through a function.**
 
-## Some term paper rules:
+## Challenge rules:
 - Use Vanilla JavaScript and DOM to catch the answers
 - Use pure CSS and HTML only
 - Use a "while" and "function" in this project
