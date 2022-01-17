@@ -8,6 +8,9 @@ A simple quiz game
 
 **A very simple 16-bit game made with Vanilla JavaScript, CSS and HTML. This was a first "term paper" of @resilia-br bootcamp. In this project was used a prompt to catch the player's answer through a function.**
 
+## UPDATE 1/17/2022
+This project has been updated and prompts windows has been removed.
+
 ## Challenge rules:
 - Each level must have a prompt window with at least 2 possibilities
 - Use Vanilla JavaScript and DOM to manipulate the page
