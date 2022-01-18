@@ -6,7 +6,7 @@ A simple quiz game
   <img src="./projeto-mobile.gif" height="362px" alt="Versão Mobile"/>
 </p>
 
-**A very simple 16-bit game made with Vanilla JavaScript, CSS and HTML. This was a first "term paper" of @resilia-br bootcamp. In this project was used a prompt to catch the player's answer through a function.**
+**A very simple 16-bit game made with Vanilla JavaScript, CSS and HTML. It was a first "term paper" project of @resilia-br bootcamp. In this project we use a prompt to catch the player's answer through a function.**
 
 ## UPDATE 1/17/2022
 This project has been updated and prompts windows has been removed.
